@@ -1,0 +1,17 @@
+<span style="color:{{ block.settings.colour }}">
+  <h1>Faqs</h1>
+  <p>What is your name?</p>
+  <p>This is Touhidul.</p>
+</span>
+
+
+{% schema %}
+{
+  "name": "Faq Display",
+  "target": "section",
+  "settings": [
+    { "type": "color", "id": "colour", "label": "Faq Colour", "default": "#ff0000" }
+  ]
+}
+{% endschema %}
+

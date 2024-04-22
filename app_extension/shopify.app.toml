@@ -1,0 +1,25 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "FAQ"
+client_id = "579c33ed5984cab37214f5c01767f78b"
+application_url = "https://quetzal-unbiased-cheetah.ngrok-free.app"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://quetzal-unbiased-cheetah.ngrok-free.app/authenticate",
+  "https://quetzal-unbiased-cheetah.ngrok-free.app/auth"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "bdkabir.myshopify.com"
